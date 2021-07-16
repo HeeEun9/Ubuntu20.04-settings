@@ -1,4 +1,4 @@
-# Ubuntu setting (Ubuntu20.04)
+# Ubuntu setting (Ubuntu20.04)_210716v
 ## Chrome install
 - save the file >> install
 ## hangul

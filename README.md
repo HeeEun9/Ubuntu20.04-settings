@@ -4,6 +4,9 @@
 ## hangul
 1. fctix install
 - $ sudo apt-get install fcitx-hangul
+2. ibus
+- $ sudo apt install ibus-hangul # reboot 해줘야 뜸
+- $ ibus-setup # settings
 
 ## Document
 - $ touch ~/Templates/Document 

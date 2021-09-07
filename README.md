@@ -77,3 +77,8 @@ sudo ln -sf /usr/local/cuda-11.2/targets/x86_64-linux/lib/libcudnn.so.8.1.0  /us
 sudo ldconfig
 ldconfig -N -v $(sed's/://'<<<$LD_LIBRARY_PATH)2>/dev/null|grep libcudnn
 ```
+
+## 설치
+```
+sudo apt install build-essential # 개발에 필요한 툴
+```

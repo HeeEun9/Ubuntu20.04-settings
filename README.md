@@ -30,7 +30,7 @@ $ sudo rm -rf /usr/local/cuda* #기존 cuda remove
 ```
 
 ### CUDA 
-- [install](https://developer.nvidia.com/cuda-11.2.0-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=runfilelocal)
+- [install](https://developer.nvidia.com/cuda-toolkit-archive)
 
 ```
 $ wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run

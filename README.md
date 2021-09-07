@@ -40,11 +40,17 @@ $ sudo sh cuda_11.2.0_460.27.04_linux.run
 - accept
 - driver 제외 후 install
 
-- ~/.bashrc 설정
+-$ sudo gedit ~/.bashrc # 설정
 ```
+# cuda link
 export PATH=$PATH:/usr/local/cuda-11.2/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-11.2/lib64
 export CUDADIR=/usr/local/cuda-11.2
+
+# alias
+alias eb='sudo gedit ~/.bashrc'
+alias sb='source ~/.bashrc'
+
 ```
 ### Cudnn
 - [install](https://developer.nvidia.com/rdp/cudnn-archive)
